@@ -35,10 +35,6 @@
 }
 
 
-#customers{
-  background-color: #FFFAE6;
-}
-
 header {
   background-color: var(--bs-primary);
 }
@@ -58,7 +54,6 @@ h1{
 
 #hero {
   height: 500px;
-  background-color: #E4E6DB;
   background-image: url(../images/hero-bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -99,8 +94,20 @@ section:not(#hero):not(#cta){
 }
 
 
-@media(min-width: 993px){
-  section:not(#hero):not(#cta){
-    padding: 100px 0;
+
+@media (max-width:575){
+  #hero {
+    height: 550px;           /* smaller height on mobile */
+    background-position: top; /* keeps image from sliding down */
+    overflow: hidden;         /* prevents image spill */
   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #hero {
+    height: 550px;           /* smaller height on mobile */
+    background-position: top; /* keeps image from sliding down */
+    overflow: hidden;         /* prevents image spill */
+  }
+  
 }
