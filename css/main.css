@@ -68,11 +68,6 @@ h1{
   height: 80vh;
 }
 
-
-#hero .d-flex {
-  height: 800px;
-}
-
 #cta {
   height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
@@ -85,9 +80,7 @@ h1{
   height: 400px;
 }
 
-section:not(#hero):not(#cta){
-  padding: 60px 0;
-}
+
 
 .card:hover {
   animation: pulse 0.8s;
@@ -95,19 +88,27 @@ section:not(#hero):not(#cta){
 
 
 
-@media (max-width:575){
+@media (min-width: 576px) and (max-width: 767px){
   #hero {
-    height: 550px;           /* smaller height on mobile */
-    background-position: top; /* keeps image from sliding down */
-    overflow: hidden;         /* prevents image spill */
+    height: 500px;           
+    background-position: top; 
+    overflow: hidden;         
+    text-align: center;
+  }
+  #service-image{
+    display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     #hero {
-    height: 550px;           /* smaller height on mobile */
-    background-position: top; /* keeps image from sliding down */
-    overflow: hidden;         /* prevents image spill */
+    height: 550px;           
+    background-position: top; 
+    overflow: hidden; 
+    text-align: center;       
+  }
+    #service-image{
+    display: none;
   }
   
 }
