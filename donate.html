@@ -7,8 +7,17 @@
     <!-- Include Bootstrap JS cdn link -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+    <!--GOOGLE ICONS-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+     
+
     <!--FAVICON LINK-->
       <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+      <!--ANIMATE-->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -46,115 +55,142 @@
 
 
     <main>
-<!--HERO-->
-    <section class="hero-services d-flex align-items-center text-center text-white">
-      <div class="container">
-        <h1 class="display-4 text-cream">Make A Difference</h1>
-      </div>
-    </section>
+        <!--HERO-->
+      <section class="hero-services d-flex align-items-center text-center text-white">
+          <div class="container">
+            <h1 class="display-4 text-cream">Make A Difference</h1>
+          </div>
+      </section>
 
+      <section class="py-5">
+          <div class="container text-center">
+              <div class="row g-4 justify-content-center">
 
-      <section class="py-5 bg-light">
+                  <!--CARD1-->
+                  <div class="col-12 col-md-4">
+                      <div class="card border-0 h-100 bg-primary rounded-4 " >
+                          <img src="images/donate-program.jpg" class="card-img-top rounded-top-4">
+                          <div class="card-body d-flex flex-column">
+                              <h4 class="text-heading" >Donate To Our Program</h4>
+                              <p class="mt-2">
+                                  Every visit is made possible through the generosity of 
+                                  donations and community support.
+                              </p>
+                              <div class="mt-auto">
+                                  <a href="donate.html" class="btn btn btn-primary" style="border-radius:30px;">
+                                      DONATE NOW
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--CARD2-->
+                  <div class="col-12 col-md-4">
+                      <div class="card border-0 h-100 bg-primary rounded-4">
+                          <img src="images/sponsor.jpg" class="card-img-top rounded-top-4">
+                          <div class="card-body d-flex flex-column">
+                              <h4 class="text-heading" >Sponsor A Visit</h4>
+                              <p class="mt-2" >
+                                  Sponsor an Equine Visit in your community. Bring the joy 
+                                  of our specially trained miniature horses to those who 
+                                  need it most.
+                              </p>
+                              <div class="mt-auto">
+                                  <a href="donate.html" class="btn btn btn-primary" style="border-radius:30px;">
+                                      DONATE NOW
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!--CARD3-->
+                  <div class="col-12 col-md-4">
+                      <div class="card border-0 h-100 bg-primary rounded-4">
+                          <img src="images/donate-van.jpg" class="card-img-top rounded-top-4">
+                          <div class="card-body d-flex flex-column">
+                              <h4 class="text-heading">Donate A Vehicle</h4>
+                              <p class="mt-2">
+                                  30 minute family visit – meet the minis and get photos.  
+                                  Maximum of 5 people.
+                              </p>
+                              <div class="mt-auto">
+                                  <a href="donate.html" class="btn btn-primary">
+                                      DONATE NOW
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+</main>
+
+<!--FOOTER-->
+<footer class="py-5 bg-primary text-center">
   <div class="container">
-    <div class="row align-items-center justify-content-center text-center">
 
-      <!-- LEFT SIDE -->
-      <div class="col-lg-5 mb-4">
+    <div class="row align-items-start">
+      <div class="col-lg-4 mb-4 ">
+        
+        <img src="images/H&H.png" alt="Hoofbeats & Heartbeats" class="img-fluid mb-4" style="width:300px; height:120px;">
 
-        <h2 class="mt-4 text-center text-cream">Donate Today</h2>
-        <p>Your donation keeps our ponies healthy, our programs running, and our community smiling! 
-          Help us share the joy of ponies with children and families through fun, educational, and heartwarming 
-          experiences.</p>
+        <div class="d-flex mb-2">
+          <p class="mb-0">
+            <span class="material-symbols-outlined">location_on</span>
+            2402 Fifth Line Road, Dunrobin,ON K0A 1T0, Canada</p>
+        </div>
+
+        <div class="d-flex mb-2">
+          <span class="material-symbols-outlined">call</span>
+          <p class="mb-0">613-532-8856</p>
+        </div>
+
+        <div class="d-flex mb-4">
+          <span class="material-symbols-outlined">mail</span>
+          <p class="mb-0">hoofbeatsandheartbeatsquine@gmail.com</p>
+        </div>
+
+        <a href="#" class="btn btn-primary">
+          BOOK AN INQUIRY TODAY!
+        </a>
+
       </div>
 
-      <!-- RIGHT SIDE: 4 CARDS -->
-      <div class="col-lg-7">
-        <div class="row g-4">
-<div class="col-12 col-md-4">
-                <div class="card border-0 h-100" style="background:#CAE0EA; border-radius:12px;">
-                    <img src="images/donate-program.jpg" class="card-img-top" style="border-radius:12px 12px 0 0;">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="" style="color:#2C4755;">Donate To Our Program</h5>
-                        <p class="mt-2" style="font-size:14px;">
-                            Every visit is made possible through the generosity of 
-                            donations and community support.
-                        </p>
-                        <div class="mt-auto">
-                            <a href="donate.html" class="btn btn btn-primary" style="border-radius:30px;">
-                                DONATE NOW
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- CARD 2 -->
-            <div class="col-12 col-md-4">
-                <div class="card border-0 h-100" style="background:#CAE0EA; border-radius:12px;">
-                    <img src="images/sponsor.jpg" class="card-img-top" style="border-radius:12px 12px 0 0;">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="" style="color:#2C4755;">Sponsor A Visit</h5>
-                        <p class="mt-2" style="font-size:14px;">
-                            Sponsor an Equine Visit in your community. Bring the joy 
-                            of our specially trained miniature horses to those who 
-                            need it most.
-                        </p>
-                        <div class="mt-auto">
-                            <a href="donate.html" class="btn btn btn-primary" style="border-radius:30px;">
-                                DONATE NOW
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="col-lg-8">
+        <div class="row">
+          <!--ABOUT-->
+          <div class="col-6 col-md-4 mb-4">
+            <h5 class="mb-3">ABOUT</h5>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Our Mission</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Our Story</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Our Staff & Volunteers</a></p>
+          </div>
 
-            <!-- CARD 3 -->
-            <div class="col-12 col-md-4">
-                <div class="card border-0 h-100" style="background:#CAE0EA; border-radius:12px;">
-                    <img src="images/donate-van.jpg" class="card-img-top" style="border-radius:12px 12px 0 0;">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="" style="color:#2C4755;">Donate A Vehicle</h5>
-                        <p class="mt-2" style="font-size:14px;">
-                            30 minute family visit – meet the minis and get photos.  
-                            Maximum of 5 people.
-                        </p>
-                        <div class="mt-auto">
-                            <a href="donate.html" class="btn btn-primary" style="border-radius:30px;">
-                                DONATE NOW
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <!--SERVICES-->
+          <div class="col-6 col-md-4 mb-4">
+            <h5 class="mb-3">SERVICES</h5>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Packages</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Programs</a></p>
+          </div>
+
+          <!--DONATE-->
+          <div class="col-6 col-md-4 mb-4">
+            <h5 class="mb-3">DONATE</h5>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Donate to Our Program</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Sponsor a Visit</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Donate a Vehicle</a></p>
+          </div>
 
         </div>
       </div>
     </div>
   </div>
-</section>
-
-    </main>
-
-
-    
-    <footer class="bg-primary text-light py-3">
-      <div class="container">
-        <div class="d-flex justify-content-between">
-          <div class="d-flex align-items-center">
-            <a href="/">
-              <img src="images/daily-dish-logo.svg" alt="Logo" width="35" height="auto">
-            </a>
-            <span>&copy; 2025 Company, Inc</span>
-          </div>
-      
-          <ul class="d-flex gap-3 list-unstyled">
-            <li><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a></li>
-            <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a></li>
-          </ul>
-        </div>    
-      </div>
-    </footer>
-    
+</footer>
     
     <!-- Include Bootstrap JS cdn link -->
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sniglet:wght@400;800&display=swap" rel="stylesheet');
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import 'animate.css';
 /* Set custom variables here */
 
 :root,[data-bs-theme="dark"]{
@@ -91,6 +92,10 @@ h1{
 
 section:not(#hero):not(#cta){
   padding: 60px 0;
+}
+
+.card:hover {
+  animation: pulse 0.8s;
 }
 
 
