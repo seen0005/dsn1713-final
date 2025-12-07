@@ -4,40 +4,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Midterm Assignment</title>
-    <!-- Include Bootstrap JS cdn link -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+    <!--BOOTSTRAP-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+   <!--GOOGLE ICONS-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+     
+    <!--FAVICON LINK-->
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <link rel="stylesheet" href="css/main.css">
+
   </head>
   <body>
 
     <header class="sticky-top">
       <nav class="navbar bg-primary navbar-expand-lg" data-bs-theme="dark">
         <div class="container-lg">
-          <a class="navbar-brand" href="#">
-            <img src="images/daily-dish-logo.svg" alt="Daily Dish Logo" width="40" height="40">Daily Dish</a>
+          <a class="navbar-brand" href="index.html">
+            <img src="images/H&H.png" alt="Hoofbeats&Heartbeats" width="120" height="40"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu Plans</a>
+                <a class="nav-link" href="services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">How it Works</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Recipes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="donate.html">Donate</a>
               </li>
             </ul>
+            <a href="#" class="btn btn-primary ">Book An Inquiry</a>
           </div>
         </div>
       </nav>
@@ -46,233 +51,369 @@
 
 
     <main>
-
-      <section id="hero" class="px-5">
+      <!-- Hero Section -->
+      <section id="hero" class="px-5 bg-accent">
         <div class="container"> 
-          <div class="d-flex justify-content-center align-items-start py-5">
-            <div class="text-center" data-bs-theme="dark">
-              <h1 class="mt-5">Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
-              <p>With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery shopping, or cleanup.</p>
-              <button class="btn btn-primary" type="button" >Get Started Today and Save Time!</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="how-it-works" class="px-5">
-        <div class="container text-center">
-          <h2>How it Works</h2>
-          <p>Say goodbye to meal planning stress! With Daily Dish, you’ll enjoy chef-crafted meals made from fresh, natural ingredients, delivered right to your door—ready to cook in minutes.</p>
-          <div class="row">
-            <div class="col-lg-4 text-center">
-              <div>
-                <img src="images/meal.svg" alt="" width="100" height="auto">
-              </div>
-              <h3>Choose Your Menu</h3>
-              <p>Explore a wide variety of delicious meal options, tailored to your dietary preferences—whether you're vegan, low-carb, or just looking for wholesome comfort food.</p>
-            </div>
-            <div class="col-lg-4 text-center">
-              <div>
-                <img src="images/vegetables.svg" alt="" width="100" height="auto">
-              </div>
-              <h3>Fresh Ingredients Delivered</h3>
-              <p>We source the freshest, highest-quality ingredients and deliver them in perfectly portioned kits. No waste, no hassle.</p>
-            </div>
-            <div class="col-lg-4 text-center">
-              <div>
-                <img src="images/plate-fork-spoon.svg" alt="" width="100" height="auto">
-              </div>
-              <h3>Cook & Enjoy</h3>
-              <p>Our easy-to-follow recipes mean you’ll have a mouthwatering, home-cooked meal ready in under 30 minutes—no kitchen skills required!</p>
-            </div>
-          </div>
-          <button class="btn btn-primary" type="button" >Pick Your Plan</button>
-        </div>
-      </section>
-
-      <hr class="border border-primary" >
-      
-      <section class="px-5 py-5">
-        <div class="container">
-          <h2 class="text-center mb-4">The Smarter Way to Eat Healthy</h2>
           <div class="row align-items-center">
-            <div class="col-md-6 order-2 order-md-1">
-              <img class="img-fluid" src="images/family-eating.png" alt="Family enjoying dinner" class="img-fluid rounded">
+            <div class="col-lg-6">
+              <h1 class="mt-5 mb-3">Celebrate Big With A Little Pony Charm</h1>
+              <p>Birthdays, Community Events & Special Celebrations made unforgettable</p>
+              <button class="btn btn-primary" type="button" >Book Your Inquiry Today!</button>
             </div>
-            <div class="col-md-6 order-1 order-md-2 text-center text-md-start">
-              <ul class="list-unstyled">
-                <li>
-                  <h3>Save Time & Stress</h3>
-                  <p>Skip the grocery store and meal prep. Everything you need is delivered—so you can focus on living, not planning.</p>
-                </li>
-                <hr class="border border-primary  mx-auto">
-                <li>
-                  <h3>Balanced & Nutritious</h3>
-                  <p>Each recipe is carefully crafted by nutrition experts and chefs to provide well-balanced, nourishing meals.</p>
-                </li>
-                <hr class="border border-primary  mx-auto">
-                <li>
-                  <h3>Customize Your Box</h3>
-                  <p>Whether you’re cooking for yourself or a family, our plans are flexible and adjustable to meet your unique needs.</p>
-                </li>
-              </ul>
+            <div class="col-lg-5">
+              <div>
+                <img src="images/header.png" alt="Girl Riding Pony" class="img-fluid">
+              </div>
             </div>
-          </div>
-          
-        </div>
-      </section>
-
-
-      <section id="customers" class="bg-primary text-light px-5 py-5">
-        <div class="container">
-          <div>
-            <h2 class="mb-4 text-center">What Our Customers Are Saying</h2>
-
-            <div class="row">
-              <div class="col-lg-4 text-center">
-                <figure class="text-center">
-                  <img src="images/sarah.jpg" class="rounded-circle img-fluid" alt="Profile picture of Sarah" width="100" height="100">
-                  <blockquote class="blockquote">
-                    <p>"Daily Dish has completely changed how I eat during the week. The meals are so easy, and the flavors are incredible!"</p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer text-light">
-                    Sarah, Busy Professional
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="col-lg-4 text-center">
-                <figure class="text-center">
-                  <img src="images/tom.jpg" class="rounded-circle img-fluid" alt="Profile picture of Tom" width="100" height="100">
-                  <blockquote class="blockquote">
-                    <p>"I love that I can adjust the menu to fit my family’s preferences. Daily Dish makes healthy eating simple for all of us."</p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer ">
-                  <figcaption class="blockquote-footer text-light">
-                    Tom, Father of Two
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="col-lg-4 text-center">
-                <figure class="text-center">
-                  <img src="images/julia.jpg" class="rounded-circle img-fluid" alt="Profile picture of Julia" width="100" height="100">
-                  <blockquote class="blockquote">
-                    <p>"As someone who’s new to cooking, I was nervous at first but Daily Dish makes it so easy."</p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer text-light">
-                    Julia, Novice Cook
-                  </figcaption>
-                </figure>
-              </div>
-              
-            </div>
-
           </div>
         </div>
       </section>
 
+      <!-- About Section -->
+      <section id="what-we-are-all-about" class="px-5 text-center">
+        <div>
+          <h2 class="text-secondary">What We Are All About</h2>
+          <p>At Hoofbeats & Heartbeats, we bring smiles and a little bit of magic to every celebration! Our gentle, well-loved ponies are perfect for birthdays, community events, and special occasions. We make it easy for families to create unforgettable memories with safe, fun, and hands-on pony experiences.</p>
+        </div>
+      </section>
 
-      <section class="py-5 px-5">
-        <div class="container text-center">
-          <div>
-            <h2>Questions? We Have Answers</h2>
 
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Can I pause or cancel my subscription?
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Absolutely! You can pause, modify, or cancel your subscription at any time through your account dashboard.
-                  </div>
+
+      <!-- SERVICES -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center justify-content-center text-center">
+
+      <!-- LEFT SIDE -->
+      <div class="col-lg-5 mb-4">
+        <div class="position-relative">
+          <img src="images/boy-and-pony.png" class="img-fluid rounded" alt="">
+        </div>
+
+        <h2 class="mt-4 text-center text-cream">OUR PACKAGES</h2>
+
+        <div class="text-center">
+        <a href="services.html" class="btn btn-primary mt-2 px-4 py-2">
+          SEE ALL PRICES
+        </a>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE: 4 CARDS -->
+      <div class="col-lg-7">
+        <div class="row g-4">
+
+          <!-- CARD 1 -->
+          <div class="col-md-6 ">
+            <div class="p-4 rounded-4 shadow-sm bg-accent h-100 ">
+              <img src="/images/birthday-icon.png" alt="birthday" class="mb-3" style="width: 50px;">
+              <h4 class="text-heading">Offsite Birthdays / Special Events</h4>
+              <p>Available offsite. We bring 1 or 2 mini ponies for a celebration.
+                Guests can brush, and play with the minis.</p>
+              <a href="#" class="btn btn-secondary mt-2 w-100">BOOK INQUIRY</a>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="col-md-6">
+            <div class="p-4 rounded-4 shadow-sm bg-accent h-100">
+              <img src="images/our-location.png" alt="barn" class="mb-3" style="width: 50px;">
+              <h4 class="">Pony Parties At Our Location</h4>
+              <p>Party room for cake and gifts.
+                Pony games, grooming & decorating minis.
+                Pony rides available</p>
+              <a href="#" class="btn btn-secondary mt-2 w-100">BOOK INQUIRY</a>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="col-md-6">
+            <div class="p-4 rounded-4 shadow-sm bg-accent h-100">
+              <img src="images/therapy-icon.png" alt="" class="mb-3" style="width: 50px;">
+              <h4 class="">Mini(s) Senior / Therapy Visits</h4>
+              <p>Perfect for care homes, and therapy programs. Gentle interaction — 
+                brushing, petting, and connection</p>
+              <a href="#" class="btn btn-secondary mt-2 w-100">BOOK INQUIRY</a>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="col-md-6">
+            <div class="p-4 rounded-4 shadow-sm bg-accent h-100">
+              <img src="images/community-icon.png" alt="" class="mb-3" style="width: 50px;">
+              <h4 class="">Clinics & Community Events</h4>
+              <p>Tailored visits for schools, events, and local programs. 
+                Custom interactive experiences for groups and companies</p>
+              <a href="#" class="btn btn-secondary mt-2 w-100">BOOK INQUIRY</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--OUR PROGRAMS-->
+
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-5 text-secondary">OUR PROGRAMS</h2>
+    <div class="row justify-content-center g-4">
+
+      <!--CARD1-->
+      <div class="col-md-4">
+        <div class="card bg-primary border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+          <img src="images/program-pony1.jpg" class="card-img-top" alt="...">
+
+          <div class="card-body p-4 rounded-bottom-4">
+
+            <h4 class="text-heading">Family/Group Visit</h4>
+            <p class="mt-2">
+              30 minute family visit - meet the minis and get photos.
+              Maximum of 5 people.
+            </p>
+
+            <a href="#" class="btn btn-primary mt-2 w-100">
+              BOOK INQUIRY
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <!--CARD2-->
+      <div class="col-md-4">
+        <div class="card bg-primary border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+          <img src="images/program-pony2.jpg" class="card-img-top" alt="...">
+
+          <div class="card-body p-4 rounded-bottom-4">
+
+            <h4 class="text-heading">Club Farm Visit</h4>
+            <p class="mt-2">
+              For groups of up to 10 people (additional $20 per person above 10).
+              Groom and play with our ponies.
+            </p>
+
+            <a href="#" class="btn btn-primary mt-2 w-100">
+              BOOK INQUIRY
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <!--CARD3-->
+      <div class="col-md-4">
+        <div class="card bg-primary border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+          <img src="images/program-pony3.jpg" class="card-img-top" alt="...">
+
+          <div class="card-body bg-primary p-4 rounded-bottom-4">
+
+            <h4 class="text-heading">Special Needs/ Senior Farm Visits</h4>
+            <p class="mt-2">
+              Come visit our wonderful farm! Meet and interact with our ponies for 1 hour.
+            </p>
+
+            <a href="#" class="btn btn-primary mt-2 w-100">
+              BOOK INQUIRY
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="mt-5">
+      <a href="services.html" class="btn btn-secondary mt-2 w-100">
+        SEE ALL PRICES
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+=
+      
+<!--CUSTOMER REVIEWS-->
+<section class="py-5" style="background-color:#fdfae9;">
+  <div class="container d-flex justify-content-center">
+    
+    <div class="p-4 p-md-5 rounded-4 d-flex flex-column flex-md-row align-items-center gap-4"
+         style="background-color: #e9a588; max-width: 900px;">
+
+      <div class="text-center text-md-start text-white flex-grow-1">
+        <p class="mb-0 fs-5">
+          “Our daughter’s birthday was absolutely magical! The ponies were so gentle and patient 
+          with all the kids, and the staff made everything easy and fun. We couldn’t have asked 
+          for a better experience!”
+        </p>
+      </div>
+
+      <div class="text-center">
+        <img src="images/customer-review-alison.jpg" 
+             class="rounded-circle mb-2" 
+             style="width:120px; height:120px; object-fit:cover;">
+        <h6 class="mb-0 fw-bold text-white">Alice Simon</h6>
+      </div>
+
+    </div>
+  </div>
+
+  <!--SCROLL FEATURE**** Maybe try features for this***-->
+  <div class="d-flex justify-content-center mt-4 gap-2">
+    <span class="d-block rounded-circle" style="width:10px; height:10px; background:#b7dcef;"></span>
+    <span class="d-block rounded-circle" style="width:10px; height:10px; background:#6ab8d6;"></span>
+    <span class="d-block rounded-circle" style="width:10px; height:10px; background:#b7dcef;"></span>
+  </div>
+</section>
+
+
+<!--DONATE-->
+<section class="py-5">
+    <div class="container text-center">
+        
+        <h2 class="mb-5 text-secondary">DONATE</h2>
+        <div class="row g-4 justify-content-center">
+
+            <!--CARD1-->
+            <div class="col-12 col-md-4">
+                <div class="card border-0 h-100" style="background:#CAE0EA; border-radius:12px;">
+                    <img src="images/donate-program.jpg" class="card-img-top" style="border-radius:12px 12px 0 0;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="text-heading" >Donate To Our Program</h4>
+                        <p class="mt-2" style="font-size:14px;">
+                            Every visit is made possible through the generosity of 
+                            donations and community support.
+                        </p>
+                        <div class="mt-auto">
+                            <a href="donate.html" class="btn btn btn-primary" style="border-radius:30px;">
+                                DONATE NOW
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    How long do the meals last?
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Our meals stay fresh in your fridge for up to 5 days. Each meal comes with a ‘best by’ date for optimal freshness.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Do you offer meals for specific diets?
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                   Yes! We offer meals for a variety of diets, including vegetarian, keto, paleo, and gluten-free.
-                  </div>
-                </div>
-              </div>
             </div>
 
-            <!-- Include accordian component that best matches what is included in the provided screenshot.
-             
+            <!--CARD2-->
+            <div class="col-12 col-md-4">
+                <div class="card border-0 h-100" style="background:#CAE0EA; border-radius:12px;">
+                    <img src="images/sponsor.jpg" class="card-img-top" style="border-radius:12px 12px 0 0;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="text-heading" >Sponsor A Visit</h4>
+                        <p class="mt-2" style="font-size:14px;">
+                            Sponsor an Equine Visit in your community. Bring the joy 
+                            of our specially trained miniature horses to those who 
+                            need it most.
+                        </p>
+                        <div class="mt-auto">
+                            <a href="donate.html" class="btn btn btn-primary" style="border-radius:30px;">
+                                DONATE NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            Text to include:
-
-            Can I pause or cancel my subscription?
-
-            Absolutely! You can pause, modify, or cancel your subscription at any time through your account dashboard.
-
-
-            How long do the meals last?
-
-            Our meals stay fresh in your fridge for up to 5 days. Each meal comes with a ‘best by’ date for optimal freshness.
-
-
-            Do you offer meals for specific diets?
-
-            Yes! We offer meals for a variety of diets, including vegetarian, keto, paleo, and gluten-free. -->
-
-              
-          </div>
+            <!--CARD3-->
+            <div class="col-12 col-md-4">
+                <div class="card border-0 h-100" style="background:#CAE0EA; border-radius:12px;">
+                    <img src="images/donate-van.jpg" class="card-img-top" style="border-radius:12px 12px 0 0;">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="text-heading">Donate A Vehicle</h4>
+                        <p class="mt-2" style="font-size:14px;">
+                            30 minute family visit – meet the minis and get photos.  
+                            Maximum of 5 people.
+                        </p>
+                        <div class="mt-auto">
+                            <a href="donate.html" class="btn btn-primary" style="border-radius:30px;">
+                                DONATE NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+    </div>
+</section>
 
-      <section id="cta" class="px-5">
-        <div class="d-flex justify-content-center align-items-center text-center text-light py-5">
-          <div class="container">
-            <h2 class="text-light">Join Thousands of Time-Savers – Start Eating Better Today!</h2>
-            <button class="btn btn-primary mt-3" type="button">Sign Up and Get 30% Off Your First Week</button>
-          </div>
-        </div>
-      </section>
+
 
     </main>
 
+<!--FOOTER-->
+<footer class="py-5 bg-primary text-center">
+  <div class="container">
 
-    
-    <footer class="bg-primary text-light py-3">
-      <div class="container">
-        <div class="d-flex justify-content-between">
-          <div class="d-flex align-items-center">
-            <a href="/">
-              <img src="images/daily-dish-logo.svg" alt="Logo" width="35" height="auto">
-            </a>
-            <span>&copy; 2025 Company, Inc</span>
-          </div>
-      
-          <ul class="d-flex gap-3 list-unstyled">
-            <li><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a></li>
-            <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a></li>
-          </ul>
-        </div>    
+    <div class="row align-items-start">
+      <div class="col-lg-4 mb-4 ">
+        
+        <img src="images/H&H.png" alt="Hoofbeats & Heartbeats" class="img-fluid mb-4">
+
+        <div class="d-flex mb-2">
+          <p class="mb-0">
+            <span class="material-symbols-outlined">location_on</span>
+            2402 Fifth Line Road, Dunrobin,ON K0A 1T0, Canada</p>
+        </div>
+
+        <div class="d-flex mb-2">
+          <span class="material-symbols-outlined">call</span>
+          <p class="mb-0">613-532-8856</p>
+        </div>
+
+        <div class="d-flex mb-4">
+          <span class="material-symbols-outlined">mail</span>
+          <p class="mb-0">hoofbeatsandheartbeatsquine@gmail.com</p>
+        </div>
+
+        <a href="#" class="btn btn-primary">
+          BOOK AN INQUIRY TODAY!
+        </a>
+
       </div>
-    </footer>
-    
-    
-    <!-- Include Bootstrap JS cdn link -->
 
+
+      <div class="col-lg-8">
+        <div class="row">
+          <!--ABOUT-->
+          <div class="col-6 col-md-4 mb-4">
+            <h5 class="mb-3">ABOUT</h5>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Our Mission</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Our Story</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Our Staff & Volunteers</a></p>
+          </div>
+
+          <!--SERVICES-->
+          <div class="col-6 col-md-4 mb-4">
+            <h5 class="mb-3">SERVICES</h5>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Packages</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Programs</a></p>
+          </div>
+
+          <!--DONATE-->
+          <div class="col-6 col-md-4 mb-4">
+            <h5 class="mb-3">DONATE</h5>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Donate to Our Program</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Sponsor a Visit</a></p>
+            <p class="mb-2"><a href="#" class="text-dark text-decoration-none">Donate a Vehicle</a></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+    <!--BOOTSTRAP JS-->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   
     </body>

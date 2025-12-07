@@ -1,42 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sniglet:wght@400;800&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 /* Set custom variables here */
 
 :root,[data-bs-theme="dark"]{
-  --bs-primary: #2e483a; 
-  --bs-primary-rgb: 46, 72, 58;
-  --bs-border-opacity: 1;
+  --bs-primary: #a6d6e6; 
+  --bs-primary-rgb: 166, 214, 230;
+  --bs-secondary: #F05816; 
+  --bs-secondary-rgb: 240, 88, 22;
+  --bs-accent: #FFFAE6; 
+  --bs-light: #FBB094;
+  --bs-light-rgb: 251, 176, 148;
+  --bs-accent-rgb:255, 250, 230;
+  --bs-heading: #333F49;
+  --bs-heading-rgb: 51, 63, 73;
+
+}
+
+.bg-accent {
+  background-color: var(--bs-accent) !important;
 }
 
 .btn-primary {
-  background-color: var(--bs-primary) !important;
-  border-color: var(--bs-primary) !important;
+  background-color: var(--bs-secondary) !important;
+  border: none !important;
+  border-radius: 9999px;
 }/* Had to add this because --bs-primary wasn't working */
 
-#customers{
-  background-color: #2e483a;
+.btn-secondary{
+  background-color: var(--bs-primary) !important;
+  border: none !important;
+  color: var(--bs-heading);
+  border-radius: 9999px;
 }
 
-.navbar-brand {
-  color: #F6F3ED;
+
+#customers{
+  background-color: #FFFAE6;
+}
+
+header {
+  background-color: var(--bs-primary);
 }
 
 body {
-  font-family: "Sarala", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
-h1, h2, h3 {
-  font-family: "Merriweather", serif;
+h2, h3, h4{
+  font-family: "Sniglet", sans-serif;
 }
+h1{
+  font-family: "Sniglet", sans-serif;
+  color: var(--bs-heading);
+}
+
 
 #hero {
-  height: 800px;
+  height: 500px;
   background-color: #E4E6DB;
   background-image: url(../images/hero-bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+.hero-services {
+  background-image: url('../images/services-hero.jpg'); /* change to your image */
+  background-size: cover;       /* Bootstrap equivalent: bg-cover */
+  background-position: center;  /* Bootstrap equivalent: bg-center */
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
 
 #hero .d-flex {
   height: 800px;
